@@ -1,0 +1,173 @@
+@media only screen and (min-width: 1201px) and (max-width: 1365px)
+{
+    .banner_cnt h1
+    {
+        font-size: 44px;
+    line-height: 60px;
+    }
+    .hero-banner-two__stretch-image1,.hero-banner-two__stretch-image
+    {
+    height: auto;
+    }
+}
+@media only screen and (min-width: 2000px)
+{
+.main-wrapper {
+    max-width: 2000px;
+    margin: 0px auto;
+    position: relative;
+    z-index: 9;
+    background: #fff;
+}
+.appheader-content {
+    max-width: 2000px;
+ }
+header#header {
+    position: relative;
+}
+
+body.educatuion-site {
+    position: relative;
+    background: url(../images/body-pg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+body.educatuion-site:before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    background: #ffffffd1;
+    z-index: 1;
+}
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1200px)
+{
+.hero-banner-two__stretch-image1,.hero-banner-two__stretch-image
+{
+    height: auto;
+}
+.banner_cnt h1
+{
+    font-size: 30px;
+    line-height: 40px;
+}
+.get-in-touch a
+{
+    font-size: 16px;
+}
+.section-title h2
+{
+    font-size: 24px;
+    font-weight: 700;
+}
+.profile-card
+{
+    margin: 0px auto;
+}
+.logo-pg
+{
+    padding: 5px 10px;
+}
+.logo {
+    height: 50px;
+}
+.appheader-content
+{
+    height: 70px;
+}
+.get-in-touch
+{
+    min-height: 60px;
+    padding: 8px 0px;
+}
+.get-in-touch a
+{
+    min-height: 55px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px)
+{
+    .carousel-indicators
+    {
+        bottom: -3em;
+    }
+    .banner_cnt h1>br {
+    display: none;
+}
+}
+@media only screen and (max-width: 990px)
+{
+    .pg-black {
+    background: #000;
+}
+.section-padding
+{
+    padding: 30px 0px;
+}
+.banner_cnt {
+    text-align: center;
+    padding: 0px !important;
+}
+
+.banner_cnt h1 {
+    font-size: 25px;
+    line-height: 32px;
+}
+.section-title h2
+{
+    font-size: 20px;
+}
+.serviceBox
+{
+    margin-bottom: 20px;
+}
+.course_list ul.nav li {
+    margin: 0px 0px;
+    width: 46%;
+    margin: 2%;
+}
+.course_list ul.nav li button {
+    clip-path: none;
+    width: 100%;
+   
+}
+.course_details {
+    margin-bottom: 20px;
+}
+.profile-card {
+    margin: 0px auto;
+}
+.course_list ul.nav li button
+{
+    min-width: auto;
+}
+.abt_cnt {
+    margin-top: 20px;
+}
+.contact_form {
+    margin-top: 20px;
+}
+.mobile_side_menu a:hover {
+    color: var(--themecolor);
+}
+.container
+{
+    max-width: 98%;
+}
+.footer_menu.addresslink ul li span {
+    padding-bottom: 0px !important;
+}
+}
+@media only screen and (max-width: 490px)
+{
+    body {
+    font-size: 14px;
+}
+}
